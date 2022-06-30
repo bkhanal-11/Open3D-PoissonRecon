@@ -34,7 +34,7 @@ DAMAGE.
 #define WEIGHT_DEGREE 2							// The order of the B-Spline used to splat in the weights for density estimation
 #define NORMAL_DEGREE 2							// The order of the B-Spline used to splat int the normals for constructing the Laplacian constraints
 #define DEFAULT_FEM_DEGREE 2					// The default finite-element degree
-#define DEFAULT_FEM_BOUNDARY BOUNDARY_NEUMANN	// The default finite-element boundary type
+#define DEFAULT_FEM_BOUNDARY BOUNDARY_FREE	// The default finite-element boundary type
 #define DIMENSION 3								// The dimension of the system
 
 #include <stdio.h>
